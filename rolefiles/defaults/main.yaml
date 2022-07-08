@@ -9,7 +9,7 @@ base_image_url: https://download.fedoraproject.org/pub/fedora/linux/releases/36/
 base_image_sha: abeb7eaafe6fcef788170d58cf4051bc833a130ab3886b78ec87915c41eae67e
 libvirt_pool_dir: "/var/lib/libvirt/images"
 #vm_name: f34-dev
-vm_name: ingres-if36CB-dev
+vm_name: ingress-f36CB-dev
 vm_vcpus: 2
 vm_ram_mb: 2048
 vm_net: default
