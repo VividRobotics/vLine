@@ -5,6 +5,7 @@
     name:
       - guestfs-tools
       - python3-libvirt
+      - libvirt-client
     state: present
   become: yes
 
