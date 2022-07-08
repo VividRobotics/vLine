@@ -9,7 +9,7 @@
     ram_mb: 2048
     cleanup: no
     net: default
-    ssh_pub_key: "/home/rgerardi/.ssh/id_rsa.pub"
+    ssh_pub_key: "${HOME}/.ssh/id_rsa.pub"
 
   tasks:
     - name: KVM Provision role
