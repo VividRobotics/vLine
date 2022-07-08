@@ -3,10 +3,12 @@
 #base_image_name: Fedora-Cloud-Base-34-1.2.x86_64.qcow2
 #base_image_name: Fedora-Cloud-Base-34-1.2.x86_64.qcow2
 base_image_name: Fedora-Cloud-Base-36-1.5.x86_64.raw.xz
+base_image_name: Fedora-Cloud-Base-36-1.5.x86_64.qcow2
 #base_image_url: https://download.fedoraproject.org/pub/fedora/linux/releases/34/Cloud/x86_64/images/{{ base_image_name }}
 base_image_url: https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/{{ base_image_name }}
 #base_image_sha: b9b621b26725ba95442d9a56cbaa054784e0779a9522ec6eafff07c6e6f717ea
 base_image_sha: abeb7eaafe6fcef788170d58cf4051bc833a130ab3886b78ec87915c41eae67e
+base_image_sha: ca9e514cc2f4a7a0188e7c68af60eb4e573d2e6850cc65b464697223f46b4605
 libvirt_pool_dir: "/var/lib/libvirt/images"
 #vm_name: f34-dev
 vm_name: ingres-if36CB-dev
